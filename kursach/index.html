@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="goToTop()" id="goTopBtn" title="Верх">^</button>
+
+    <header class="header">
+        <nav>
+            <div class="logo"><a href="#"><img src="photo/logo.png" width="40px" height="40px"></a></div>
+            <div class="search-container">
+                <form action="/search" method="GET">
+                    <input type="search" name="q" class="search-box" placeholder="Пошук...">
+                    <button type="submit" class="search-button">Пошук</button>
+                </form>
+            </div>
+            <div class="register">Реєстрація</div>
+        </nav>
+    </header>
+
+    <aside class="right-aside">
+        <button onclick="window.location.href = 'profile/profile.html'"><div>Моя сторінка</div></button>
+        <button onclick="window.location.href = '#'"><div>Месенжер</div></button>
+        <button onclick="window.location.href = '#'"><div>Новини</div></button>
+        <button onclick="window.location.href = '#'"><div>Друзі</div></button>
+        <button onclick="window.location.href = '#'"><div>Спільноти</div></button>
+    </aside>
+
+    <aside class="left-aside">
+        <button class="popular" onclick="window.location.href = '#'">Популярні</button>
+
+    </aside>
+
+    <div class="post">
+        <div class="post-user">
+            <div class="profile-logo"><img src="/photo/profile-logo.jpg"></div>
+            <div class="nickname">Kashchei</div>
+        </div>
+    </div>
+
+    <div class="q"></div>
+<script src="go-to-top.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+body {
+    background: #ececec;
+    margin: 0;
+    padding: 0;
+}
+
+#goTopBtn {
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #313131;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#goTopBtn:hover {
+    background-color: #000000;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    margin: 0;
+}
+
+.logo {
+    margin: 5px
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-box {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #efefef;
+    color: #333333;/
+}
+
+.search-box::placeholder {
+    color: #999999;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.register {
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.right-aside {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 10%;
+    height: 40%;
+    top: 10%;
+    left: 20%;
+}
+
+.right-aside button {
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #ececec;
+    color: #000000;
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+}
+
+.right-aside button:hover {
+    background: #cecece;
+}
+
+
+.left-aside {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 15%;
+    height: 40%;
+    background: white;
+    top: 10%;
+    left: 65%;
+    border-radius: 30px;
+}
+
+.popular {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.post {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 32%;
+    top: 10%;
+    background: #232323;
+    border-radius: 30px;
+}
+
+.post-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background: #ffffff;
+    border-radius: 30px 30px 0 0;
+}
+
+.profile-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+
+.q {
+    width: 100px;
+    height: 2000px;
+}
